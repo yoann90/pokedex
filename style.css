@@ -1,0 +1,139 @@
+.main {
+  max-width: 100vw;
+  display: flex;
+}
+section > img {
+  z-index: -2;
+  max-width: 60%;
+  top: -115px;
+  left: -190px;
+}
+
+.searchBar {
+  margin-top: 30px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.searchBar input {
+  border: 1px solid transparent;
+  border-radius: 10px;
+  box-shadow: 4px 2px 8px 0px #bdb9b9;
+  width: 400px;
+  height: 50px;
+}
+
+.container {
+  padding-top: 100px;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 70px 24px;
+}
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  padding: 40px 20px 0;
+  box-shadow: 4px 2px 8px 0px #bdb9b9;
+  cursor: pointer;
+  width: 150px;
+}
+.card:hover {
+  border: 2px solid #d7d4d4;
+}
+img {
+  position: absolute;
+  bottom: 115px;
+}
+.card:hover img {
+  scale: 1.2;
+  transition: ease 0.5s;
+}
+.typeofPokemon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.type1 {
+  background: #b476a9;
+  border: 1px solid #b476a9;
+  border-radius: 5px;
+  padding: 2px;
+}
+.type2 {
+  background: #94d87b;
+  border: 1px solid #94d87b;
+  border-radius: 5px;
+  padding: 2px;
+}
+.name-pokemon {
+  margin: 0;
+}
+
+.section-detail {
+  padding-top: 100px;
+  /* position: fixed; */
+}
+.container-detail {
+  background: white;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  padding: 40px 20px 0;
+  box-shadow: 4px 2px 8px 0px #bdb9b9;
+  width: 300px;
+  height: 100%;
+}
+.detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.detail > img {
+  position: absolute;
+  top: 50px;
+  /* width: 25%; */
+  max-width: 100%;
+}
+.sizePokemon {
+  display: flex;
+
+  gap: 80px;
+}
+/* .Height > p{
+  border: 1px solid #F6F8FC;
+  background: #F6F8FC;
+  border-radius: 10px;
+  padding: 10px 80px ;
+} */
+/* .Weight > p{
+  border: 1px solid #F6F8FC;
+  background: #F6F8FC;
+  border-radius: 10px;
+  padding: 10px 80px ;
+} */
+.abilities {
+  display: flex;
+  gap: 80px;
+}
+.stats-reference {
+  display: flex;
+  gap: 20px;
+}
+.evolution-level {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.imgPoke {
+  display: flex;
+  position: relative;
+  width: 20%;
+  bottom: 0;
+}
